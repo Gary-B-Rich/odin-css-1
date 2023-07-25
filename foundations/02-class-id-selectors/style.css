@@ -1,3 +1,12 @@
+* {
+    background-color: black;
+}
+
+body {
+    padding: 5px;
+    background-color: white;
+}
+
 .class {
     background-color: pink;
     font-size: large;
@@ -6,4 +15,16 @@
 
 .class.cooler {
     font-size: 24px;
+}
+
+#two {
+    background-color: white;
+    font-size: 36px;
+    color: blue;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
 }
