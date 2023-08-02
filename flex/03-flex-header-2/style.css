@@ -2,11 +2,13 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
 body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
   display: flex;
+  
 }
 
 .header {
@@ -26,6 +28,9 @@ body {
   height: 48px;
   display: flex;
   justify-content: flex-end;
+  align-self: center;  
+  margin-right: 8px;
+  
 }
 
 .logo {
@@ -45,6 +50,10 @@ button {
   padding: 8px 24px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  flex: 2;
+  margin-right: 8px;
+  
 }
 
 a {
@@ -60,12 +69,17 @@ ul {
   justify-content: flex-start;
 }
 
-.right-side {
+.empty {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 8px;
-  padding: 8px;
+  width: 100%;
+  flex: 2;
   background: white;
-
 }
+
+.right-side {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+
